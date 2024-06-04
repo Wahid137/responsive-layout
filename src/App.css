@@ -1,38 +1,118 @@
-.App {
-  text-align: center;
+.inbox-list {
+  background-color: #ffffff;
+  margin-top: 10px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.message-content {
+  background-color: #ffffff;
+  padding: 20px;
+  margin-top: 10px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.user-details {
+  padding: 20px;
+  margin-top: 10px;
+}
+
+h1 {
+  color: #333;
+}
+
+h3,
+h4 {
+  color: #333;
+}
+
+.sidebar .menu .item,
+.inbox-list .menu .item {
+  padding: 15px 20px;
+}
+
+.message-content p,
+.user-details p {
+  color: #555;
+}
+
+.sidebar {
+  margin-top: 10px;
+}
+
+.scrollable-menu {
+  height: calc(100vh - 180px); /* Adjust based on header and margins */
+  overflow-y: auto;
+  border: 1px solid #e0e0e0; /* Add border to the scrollable area */
+}
+
+/* Custom scrollbar styles */
+.scrollable-menu::-webkit-scrollbar {
+  width: 8px; /* Width of the entire scrollbar */
+}
+
+.scrollable-menu::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Color of the scrollbar track */
+  border-radius: 10px; /* Rounded corners for the track */
+}
+
+.scrollable-menu::-webkit-scrollbar-thumb {
+  background-color: #888; /* Color of the scrollbar thumb */
+  border-radius: 10px; /* Rounded corners for the thumb */
+  border: 2px solid #e0e0e0; /* Adds a border around the thumb */
+}
+
+.scrollable-menu::-webkit-scrollbar-thumb:hover {
+  background: #555; /* Color when hovered */
+}
+
+@media screen and (max-width: 1366px) {
+  .sidebar,
+  .inbox-list,
+  .message-content,
+  .user-details {
+    width: 100%;
+    margin-bottom: 20px;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+/* For 1440×900 */
+@media screen and (max-width: 1440px) {
+  .sidebar,
+  .inbox-list,
+  .message-content,
+  .user-details {
+    width: 100%;
+    margin-bottom: 20px;
   }
-  to {
-    transform: rotate(360deg);
+}
+
+/* For 1536×864 */
+@media screen and (max-width: 1536px) {
+  .sidebar,
+  .inbox-list,
+  .message-content,
+  .user-details {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
+
+/* For 1600×900 */
+@media screen and (max-width: 1600px) {
+  .sidebar,
+  .inbox-list,
+  .message-content,
+  .user-details {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
+
+/* For 1920×1080 */
+@media screen and (max-width: 1920px) {
+  .sidebar,
+  .inbox-list,
+  .message-content,
+  .user-details {
+    width: 100%;
+    margin-bottom: 20px;
   }
 }
