@@ -46,7 +46,7 @@ const InboxPage = () => {
                   <Icon name="eye" /> Following
                 </Menu.Item>
                 <Menu.Item name="overdue">
-                  <Icon name="clock" /> Overdue
+                  <Icon name="clock" /> Overrated
                 </Menu.Item>
                 <Menu.Item name="starred">
                   <Icon name="star" /> Starred
