@@ -37,7 +37,7 @@ const InboxPage = () => {
                   <Icon name="user" /> Assigned to me
                 </Menu.Item>
                 <Menu.Item name="mentions">
-                  <Icon name="at" /> Mentions
+                  <Icon name="at" /> Mention
                 </Menu.Item>
                 <Menu.Item name="offline">
                   <Icon name="wifi" /> Offline
